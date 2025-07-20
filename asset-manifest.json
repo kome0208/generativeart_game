@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/generativeart_game/static/css/main.e6c13ad2.css",
+    "main.js": "/generativeart_game/static/js/main.c0f062c0.js",
+    "static/js/453.ee722819.chunk.js": "/generativeart_game/static/js/453.ee722819.chunk.js",
+    "index.html": "/generativeart_game/index.html",
+    "main.e6c13ad2.css.map": "/generativeart_game/static/css/main.e6c13ad2.css.map",
+    "main.c0f062c0.js.map": "/generativeart_game/static/js/main.c0f062c0.js.map",
+    "453.ee722819.chunk.js.map": "/generativeart_game/static/js/453.ee722819.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c0f062c0.js"
+  ]
+}

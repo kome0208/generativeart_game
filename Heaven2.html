@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>レジ袋ゲーム</title>
+  <script src="p5.min.js"></script>
+  <script src="objects.js"></script>
+  <script src="stage4/background.js"></script>
+  <script src="stage4/gamelogic.js"></script> <!-- メインゲームロジック -->
+  <style>
+      body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1; /* 背景に固定 */
+      background-color: transparent !important;
+      pointer-events: none; /* マウスイベント無効化（UIに干渉しない） */
+    }
+  </style>
+</head>
+<body></body>
+</html>
