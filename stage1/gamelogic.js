@@ -35,7 +35,7 @@ function createBackButton() {
   backButton.style('background-color', '#333');
   backButton.style('color', '#fff');
   backButton.mousePressed(() => {
-    window.location.href = '/'; // React のホーム画面へ
+    window.location.href = '/generativeart_game/'; // React のホーム画面へ
   });
 }
 
