@@ -54,13 +54,13 @@ function App() {
           <p>ステージのシリーズごとにゴミの速さや弾幕の密度が違います。試してからのお楽しみ！</p>
           {Array.from({ length: Math.ceil(stages.length / 4) }).map((_, rowIndex) => (
             <div key={rowIndex} style={{ display: 'flex', marginBottom: '8px' }}>
-              {stages
-                .slice(rowIndex * 4, rowIndex * 4 + 4)
-                .map((stage) => (
-                  <a href={`/${stage.id}.html`} key={stage.id} style={{ marginRight: '8px' }}>
-                    <MyButton>{stage.name}</MyButton>
-                  </a>
-                ))}
+             {stages
+  .slice(rowIndex * 4, rowIndex * 4 + 4)
+  .map((stage) => (
+    <a href={`${process.env.PUBLIC_URL}/${stage.id}.html`} key={stage.id} style={{ marginRight: '8px' }}>
+      <MyButton>{stage.name}</MyButton>
+    </a>
+  ))}
             </div>
           ))}
           <div>
